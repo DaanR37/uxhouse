@@ -1,0 +1,128 @@
+#vacatures-page-container {
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+    font-family: "Roboto Condensed", sans-serif;
+    text-transform: uppercase;
+}
+.vacatures-page-background {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    h1 {
+        position: relative;
+        text-align: center;
+        font-size: 27px;
+        font-weight: 400;
+        letter-spacing: 0.3rem;
+        top: 3rem;
+        // margin-top: 4rem;
+    }
+}
+.vacatures-page-cirkel {
+    position: absolute;
+    width: 6vw;
+    left: 85%;
+    top: 15%;
+    transform: translate(-85%, -15%);
+    img {
+        width: 100%;
+    }
+}
+.vacatures-page-kruis {
+    position: absolute;
+    width: 5.2vw;
+    left: 10%;
+    top: 25%;
+    transform: translate(-10%, -25%);
+    img {
+        width: 100%;
+    }
+}
+.ux-logo-upside-down-vacatures {
+    position: absolute;
+    background: none;
+    color: inherit;
+    border: none;
+    padding: 0;
+    font: inherit;
+    outline: inherit;
+    filter: brightness(0.8);
+    width: 10vw;
+    left: 50%;
+    top: 25%;
+    transform: translate(-50%, -25%);
+    img {
+        width: 100%;
+    }
+}
+.vacatures-card-container {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 50%;
+    left: 50%;
+    top: 70%;
+    transform: translate(-50%, -70%);
+    img {
+        width: 170px;
+        cursor: pointer;
+    }
+}
+
+.vacatures-card-container .card {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    width: 26%;
+    margin: 10px 10px;
+    h2 {
+        position: absolute;
+        text-align: center;
+        // align-self: center;
+        color: whitesmoke;
+        font-size: 16px;
+        width: 60%;
+        cursor: pointer;
+    }
+}
+#vacatures-page-container > div > div.vacatures-card-container > div.card.one > a {
+    // position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#vacatures-page-container > div > div.vacatures-card-container > div.card.two > a {
+    // position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#vacatures-page-container > div > div.vacatures-card-container > div.card.three > a {
+    // position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#vacatures-page-container > div > div.vacatures-card-container > div.card.four > a {
+    // position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#vacatures-page-container > div > div.vacatures-card-container > div.card.five > a {
+    // position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#vacatures-page-container > div > div.vacatures-card-container > div.card.six > a {
+    // position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

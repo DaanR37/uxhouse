@@ -1,0 +1,107 @@
+#contracts-page-container {
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+    font-family: "Roboto Condensed", sans-serif;
+    text-transform: uppercase;
+}
+.contracts-page-background {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    h1 {
+        position: relative;
+        text-align: center;
+        font-size: 27px;
+        font-weight: 400;
+        letter-spacing: 0.3rem;
+        top: 3rem;
+        // margin-top: 4rem;
+    }
+}
+.contracts-page-cirkel {
+    position: absolute;
+    width: 4vw;
+    left: 10%;
+    bottom: 65%;
+    transform: translate(-10%, 65%);
+    // transform: rotate(-90deg);
+    img {
+        width: 100%;
+    }
+}
+.contracts-page-kruis {
+    position: absolute;
+    width: 7vw;
+    left: 90%;
+    bottom: 25%;
+    transform: translate(-90%, 25%);
+    img {
+        width: 100%;
+    }
+}
+.ux-logo-upside-down {
+    position: absolute;
+    background: none;
+    color: inherit;
+    border: none;
+    padding: 0;
+    font: inherit;
+    outline: inherit;
+    filter: brightness(0.8);
+    width: 10vw;
+    left: 50%;
+    top: 25%;
+    transform: translate(-50%, -25%);
+    img {
+        width: 100%;
+    }
+}
+.contracts-tekst-container {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    left: 50%;
+    top: 72%;
+    transform: translate(-50%, -72%);
+}
+.contracts-page-tekst {
+    position: relative; ///was absolute
+    text-align: justify;
+    font-size: 19px;
+    font-weight: 400;
+    letter-spacing: 0.1rem;
+}
+.button-aanvraag-contracts {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    left: 50%;
+    top: 75%;
+    transform: translate(-50%, 75%);
+    -webkit-transform: translate(-50%, 75%);
+    width: 7rem;
+    height: 40px;
+    border-radius: 10px;
+    // background: #040BC5;
+    background: #040BC5 linear-gradient(to right, rgba(0,0,0,0.4) 40%, rgba(0,0,0,0) 100%);
+    font-size: 16px;
+    font-weight: 600;
+    letter-spacing: 1.2px;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: whitesmoke;
+    border: none;
+    cursor: pointer;
+    opacity: 0.9;
+    &:hover {
+        opacity: 1;
+        color: rgb(177, 127, 223);
+        transition: 400ms ease-in-out;
+    }
+}
