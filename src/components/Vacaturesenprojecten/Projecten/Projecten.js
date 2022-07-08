@@ -1,64 +1,64 @@
-import "./vacatures.scss";
+import "./projecten.scss";
 import { Link } from "react-router-dom";
 
-export default function Vacatures() {
+export default function Projecten() {
     return (
-        <section id="vacatures-page-container">
-            <div className="vacatures-page-background" style={{
+        <section id="projecten-page-container">
+            <div className="projecten-page-background" style={{
                 backgroundImage: "url(images/ux-house-achtergrond.png)"
             }}>
                 <h1>
-                    vacatures
+                    projecten
                 </h1>
 
-                <div className="ux-logo-upside-down-vacatures">
+                <div className="ux-logo-upside-down-projecten">
                     <img src="images/ux-house-upside-down-reverse.svg" alt="logo upside down"></img>
                 </div>
 
-                <div className="vacatures-card-container">
-                    <div className="card one">
-                        <Link to="/teamleadux">
-                            <h2>team lead ux</h2>
+                <div className="projecten-card-container">
+                    <div className="card-p one">
+                        <Link to="/ing">
+                            <h2>ing</h2>
                             <img src="images/ux-house-blok.svg" alt="block" />
                         </Link>
                     </div>
-                    <div className="card two">
+                    <div className="card-p two">
                         <Link to="/">
-                            <h2>senior ux designer</h2>
+                            <h2>nike amsterdam</h2>
                             <img src="images/ux-house-blok.svg" alt="block" />
                         </Link>
                     </div>
-                    <div className="card three">
+                    <div className="card-p three">
                         <Link to="/">
-                            <h2>ux designer</h2>
+                            <h2>wetransfer</h2>
                             <img src="images/ux-house-blok.svg" alt="block" />
                         </Link>
                     </div>
-                    <div className="card four">
+                    <div className="card-p four">
                         <Link to="/">
-                            <h2>global cloud architect</h2>
+                            <h2>off white</h2>
                             <img src="images/ux-house-blok.svg" alt="block" />
                         </Link>
                     </div>
-                    <div className="card five">
+                    <div className="card-p five">
                         <Link to="/">
-                            <h2>product owner</h2>
+                            <h2>global iffqd</h2>
                             <img src="images/ux-house-blok.svg" alt="block" />
                         </Link>
                     </div>
-                    <div className="card six">
+                    <div className="card-p six">
                         <Link to="/">
-                            <h2>project manager</h2>
+                            <h2>vic vega</h2>
                             <img src="images/ux-house-blok.svg" alt="block" />
                         </Link>
                     </div>
                 </div>
 
-                <div className="vacatures-page-cirkel">
+                <div className="projecten-page-cirkel">
                     <img src="images/ux-house-cirkel.svg" alt="cirkel" />
                 </div>
 
-                <div className="vacatures-page-kruis">
+                <div className="projecten-page-kruis">
                     <img src="images/ux-house-kruis.svg" alt="kruis" />
                 </div>
             </div>

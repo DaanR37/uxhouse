@@ -1,11 +1,11 @@
-#vacatures-page-container {
+#projecten-page-container {
     position: relative;
     width: 100vw;
     height: 100vh;
     font-family: "Roboto Condensed", sans-serif;
     text-transform: uppercase;
 }
-.vacatures-page-background {
+.projecten-page-background {
     position: absolute;
     height: 100%;
     width: 100%;
@@ -22,19 +22,9 @@
         // margin-top: 4rem;
     }
 }
-.vacatures-page-cirkel {
+.projecten-page-cirkel {
     position: absolute;
-    width: 6vw;
-    left: 85%;
-    top: 15%;
-    transform: translate(-85%, -15%);
-    img {
-        width: 100%;
-    }
-}
-.vacatures-page-kruis {
-    position: absolute;
-    width: 5.2vw;
+    width: 4.2vw;
     left: 10%;
     top: 25%;
     transform: translate(-10%, -25%);
@@ -42,7 +32,17 @@
         width: 100%;
     }
 }
-.ux-logo-upside-down-vacatures {
+.projecten-page-kruis {
+    position: absolute;
+    width: 6vw;
+    left: 15%;
+    top: 85%;
+    transform: translate(-15%, -85%);
+    img {
+        width: 100%;
+    }
+}
+.ux-logo-upside-down-projecten {
     position: absolute;
     width: 10vw;
     left: 50%;
@@ -52,7 +52,7 @@
         width: 100%;
     }
 }
-.vacatures-card-container {
+.projecten-card-container {
     position: relative;
     display: flex;
     justify-content: center;
@@ -66,7 +66,7 @@
         cursor: pointer;
     }
 }
-.vacatures-card-container .card {
+.projecten-card-container .card-p {
     position: relative;
     display: flex;
     justify-content: center;

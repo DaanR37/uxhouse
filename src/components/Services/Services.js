@@ -1,6 +1,6 @@
 import "./services.scss";
 import { Link } from "react-router-dom";
-import { motion } from "framer-motion";
+// import { motion } from "framer-motion";
 
 export default function Services() {
     return (

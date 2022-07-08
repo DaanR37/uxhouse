@@ -1,11 +1,11 @@
-#interim-page-container {
+#teamleadux-container {
     position: relative;
     width: 100vw;
     height: 100vh;
     font-family: "Roboto Condensed", sans-serif;
     text-transform: uppercase;
 }
-.interim-page-background {
+.teamleadux-page-background {
     position: absolute;
     height: 100%;
     width: 100%;
@@ -22,29 +22,32 @@
         // margin-top: 4rem;
     }
 }
-.interim-page-cirkel {
+.teamleadux-page-cirkel {
     position: absolute;
     width: 5.5vw;
     left: 20%;
-    bottom: 5%;
-    transform: translate(-20%, -5%);
-    // transform: rotate(-90deg);
+    bottom: 65%;
+    transform: translate(-20%, 65%);
     img {
         width: 100%;
     }
 }
-.interim-page-kruis {
+.teamleadux-page-kruis {
     position: absolute;
-    width: 6.5vw;
-    left: 80%;
-    top: 15%;
-    transform: translate(-80%, -15%);
+    width: 5vw;
+    left: 95%;
+    bottom: 50%;
+    transform: translate(-95%, 50%);
     img {
         width: 100%;
     }
 }
-.ux-logo-upside-down-interim {
+.teamleadux-card {
     position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
     width: 10vw;
     left: 50%;
     top: 25%;
@@ -52,8 +55,14 @@
     img {
         width: 100%;
     }
+    h2 {
+        position: absolute;
+        color: whitesmoke;
+        font-size: 16px;
+        width: 60%;
+    }
 }
-.interim-tekst-container {
+.teamleadux-tekst-container {
     position: absolute;
     display: flex;
     flex-direction: column;
@@ -62,14 +71,14 @@
     top: 72%;
     transform: translate(-50%, -72%);
 }
-.interim-page-tekst {
+.teamleadux-page-tekst {
     position: relative; ///was absolute
     text-align: justify;
     font-size: 19px;
     font-weight: 400;
     letter-spacing: 0.1rem;
 }
-.button-aanvraag-interim {
+.button-aanvraag-teamleadux {
     position: relative;
     display: flex;
     align-items: center;
